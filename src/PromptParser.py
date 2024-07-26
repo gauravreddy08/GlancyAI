@@ -1,7 +1,7 @@
 import toml
 
 class PromptParser():
-    def __init__(self, filename='prompts.toml'):
+    def __init__(self, filename='./config/prompts.toml'):
         file = open(filename, 'r')
         self.data = toml.load(file)
 

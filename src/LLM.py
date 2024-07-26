@@ -15,7 +15,7 @@ class LLM():
         if system:
             self._append('system', system)
         
-        f = open('agent.json', 'r')
+        f = open('./config/agent.json', 'r')
         self.tools = json.load(f)
 
     def call(self, prompt: str, tool_choice='none'):

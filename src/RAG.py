@@ -1,10 +1,10 @@
-from YoutubeHelper import get_transcript
+from src.YoutubeHelper import get_transcript
 from dotenv import load_dotenv
 from langchain.docstore.document import Document
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_chroma import Chroma
 from langchain_openai import OpenAIEmbeddings
-from LLM import LLM
+from src.LLM import LLM
 
 
 class Database():
