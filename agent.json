@@ -1,0 +1,36 @@
+[
+    {
+        "type": "function",
+        "function": {
+            "name": "retriever",
+            "description": "Using semantic similarity, retrieves some documents from the knowledge base that have the closest embeddings to the input query.",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "query": {
+                        "type": "string",
+                        "description": "The query to perform. This should be semantically close to your target documents. Use the affirmative form rather than a question."
+                    }
+                },
+                "required": ["query"]
+            }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "youtube_search",
+            "description": "Searches and get videos from Youtube using the provided query",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "query": {
+                        "type": "string",
+                        "description": "YouTube search query that aligns with the user's requirements"
+                    }
+                },
+                "required": ["query"]
+            }
+        }
+    }
+]

@@ -1,0 +1,29 @@
+[youtube_query]
+prompt="""
+I want to create a product that helps users buy a wide range of items, including laptops, phones, electronics, protein powder, speakers, bottles, perfumes, and more. When a user provides their requirements, I need you to craft a YouTube search query that incorporates their specifications. The query should be in the style commonly used on YouTube for product searches. Here are some example queries for reference:
+
+- Best laptops in 2024
+- Best student laptop under $2000
+- Best iPhone 2024
+- iPhone vs Pixel comparison
+- iPhone 13 vs iPhone 14
+- Best perfumes for men 2024
+- Budget-friendly protein powder reviews
+- Top Premium Headphones 2024
+- Best gaming laptops under $1500
+- Affordable smartphones with best battery life
+- Best wireless speakers for home
+- Top 10 noise-canceling headphones
+- Best budget laptops for video editing
+- Best Android phones in 2024
+- Best Bluetooth speakers under $100
+- Best fitness trackers in 2024
+- Top smartwatches for Android users
+- Best DSLR cameras for beginners
+- Top-rated home theater systems 2024
+- Affordable perfumes for women
+- Best laptop accessories for productivity
+- Best gaming accessories 2024
+- Best value for money laptops 2024
+
+Please generate a search query that aligns with the user’s product requirements and follows the YouTube search query style."""
