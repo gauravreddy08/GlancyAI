@@ -1,4 +1,4 @@
-# GlancyAI
+![GlancyAI](assets/GlancyAI.gif)
 
 Being viewed as the tech guy is a lot of fun, don't get me wrong. Sometimes it gets frustrating to explain to your friends that you cannot hack their ex's Facebook account. However, there is something more frustrating, which is when people ask you about which smartphone, laptop, or headphones to buy.
 
