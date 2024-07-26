@@ -36,7 +36,7 @@ In an agentic RAG, agents are used to orchestrate and manage the various compone
 
 > Finally, I did this all for you, so that you, the non-tech person, don't have to think twice when trying to research a product.
 
-Sure, here's the updated content:
+---
 
 ## What's Under the Hood?
 
@@ -62,7 +62,7 @@ The app is nowhere near perfect. Here are some future improvements:
 2. **YouTube Fetching Reliability**: The current package used to fetch YouTube videos is unreliable, sometimes fetching 30 videos, sometimes only 2. I might need to replace it with something more reliable.
 3. **Dynamic Agentic RAG**: The current Agentic RAG is good, but I need a Dynamic Agentic RAG. For instance, if the user asks about MacBooks, the RAG pipeline initializes to detect all YouTube videos on MacBooks. But if the user suddenly switches to ask about Chromepads, the LLM model is clueless, defeating the system's purpose. This can be fixed by implementing a Dynamic RAG.
 
-## Contributing
-
-We welcome contributions! If you have suggestions or want to report issues, please open an issue or submit a pull request.
+> #### Contributing
+> 
+> We welcome contributions! If you have suggestions or want to report issues, please open an issue or submit a pull request.
 
